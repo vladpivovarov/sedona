@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1220, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+    <title>Welcome to Sedona!</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container main-container">
+            <header class="header">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item nav__item_active">
+                            <a href="index.html" class="nav__link">Информация</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="blank.html" class="nav__link">Фото и видео</a>
+                        </li>
+                        <li class="nav__item nav__item_space-for-logo"></li>
+                        <li class="nav__item">
+                            <a id="mapView" href="#map" class="nav__link">Карта штата</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="hotels.html" class="nav__link">Гостиницы</a>
+                        </li>
+                    </ul>
+                    <a href="/" class="logo">
+                        <img src="img/logo.svg" width="138" height="70" alt="Sedona logo">
+                    </a>
+                </nav>
+            </header>
+            <main class="main">
+                <section class="preview-section">
+                    <h1 class="main-title visually-hidden">Добро пожаловать в Sedona!</h1>
+                    <figure class="preview-section__img-wrap">
+                        <img src="img/welcome.svg" width="456.65" height="350.88" alt="Welcome to the gorgeous Sedona" class="preview-section__img">
+                    </figure>
+                    <div class="preview-section__figure-block">
+                        <svg class="preview-section__figure" width="100%" height="57" viewbox="0 0 1200 57" preserveAspectRatio="none">
+                            <polygon points="0,57 0,0 250,30 250,0 600,57 950,0 950,30 1200,0 1200,57">
+                        </svg>
+                    </div>
+                </section>
+                <section class="advantages">
+                    <h2 class="title advantages_title">Седона — небольшой городок в Аризоне,
+						<br>
+						заслуживающий большего!</h2>
+                    <div class="advantages__desc">
+                        Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
+                    </div>
+                    <ul class="advantages__list">
+                        <li class="advantages__item">
+                            <div class="advantages__line-img line-img">
+                                <div class="line-img__desc item-box">
+                                    <h3 class="item-box__title title title_white">
+                                        Настоящий городок
+                                    </h3>
+                                    <div class="item-box__number">
+                                        — №1 —
+                                    </div>
+                                    <div class="item-box__desc">
+                                        Седона - не аттракцион для туристов, там течёт своя жизнь
+                                    </div>
+                                </div>
+                                <div class="line-img__img-block line-img__img-block_life"></div>
+                            </div>
+                            <ul class="advantages__point-list">
+                                <li class="advantages__point-item point-item">
+                                    <div class="point-item__img">
+                                        <img src="img/icons/advantages_home.svg" alt="Жилье в Седоне">
+                                    </div>
+                                    <h4 class="point-item__title title">Жилье</h4>
+                                    <div class="point-item__desc">
+                                        Рекомендуем пожить в настоящем
+										<br>
+										 мотеле, всё как в кино!
+                                    </div>
+                                </li>
+                                <li class="advantages__point-item point-item">
+                                    <div class="point-item__img">
+                                        <img src="img/icons/advantages_food.svg" alt="Еда в Седоне">
+                                    </div>
+                                    <h4 class="point-item__title title">Еда</h4>
+                                    <div class="point-item__desc">
+                                        Всегда заказывайте фирменный бургер, вы не разочаруетесь!
+                                    </div>
+                                </li>
+                                <li class="advantages__point-item point-item">
+                                    <div class="point-item__img point-item__img_box">
+                                        <img src="img/icons/advantages_souvenirs.svg" alt="Сувениры в Седоне">
+                                    </div>
+                                    <h4 class="point-item__title title">Сувениры</h4>
+                                    <div class="point-item__desc">
+                                        Не только китайского, но и местного производства!
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="advantages__line-img advantages__line-img_invert line-img ">
+                                <div class="line-img__desc item-box">
+                                    <h3 class="item-box__title title title_white">
+                                        Там есть Мост дьявола
+                                    </h3>
+                                    <div class="item-box__number">
+                                        — №2 —
+                                    </div>
+                                    <div class="item-box__desc">
+                                        Да, по нему можно пройти! Если конечно
+										<br>
+										вы осмелитесь
+                                    </div>
+                                </div>
+                                <div class="line-img__img-block line-img__img-block_bridge"></div>
+                            </div>
+                        </li>
+                        <li class="advantages__item item-box">
+                            <h3 class="item-box__title title">
+                                Небольшая площадь
+                            </h3>
+                            <div class="item-box__number">
+                                — №3 —
+                            </div>
+                            <div class="item-box__desc">
+                                Все достопримечательности
+								<br>
+								 находятся очень близко
+                            </div>
+                        </li>
+                        <li class="advantages__item item-box">
+                            <h3 class="item-box__title title">
+                                Красивая дорога
+                            </h3>
+                            <div class="item-box__number">
+                                — №4 —
+                            </div>
+                            <div class="item-box__desc">
+                                Ехать в седону из лас-вегаса совсем 
+								<br>
+								 не скучно!
+                            </div>
+                        </li>
+                        <li class="advantages__item item-box">
+                            <h3 class="item-box__title title">
+                                Мало туристов
+                            </h3>
+                            <div class="item-box__number">
+                                — №5 —
+                            </div>
+                            <div class="item-box__desc">
+                                Большинство едет в гранд каньон
+								<br>
+								 и толпится там
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="offers">
+                    <h2 class="offers__title">Заинтересовались?</h2>
+                    <p class="offers__desc">
+                        Укажите предполагаемые даты поездки, 
+						<br>
+						 и мы покажем вам лучшие предложения гостиниц в Cедоне
+                    </p>
+                    <div class="offers__form-block">
+                    	<button type="button" class="offers__button" aria-label="Search">
+	                        Поиск гостиницы в Седоне
+	                    </button>
+	                    <form action="#" method="get" class="offers__form offers-form" >
+	                        <div class="offers-form__wrap">
+	                        	<fieldset class="offers-form__row">
+		                            <label for="chooseDateIn" class="offers-form__title-row">
+		                                Дата заезда:
+		                            </label>
+		                            <input id="chooseDateIn" name="dateOfIn" type="date" class="offers-form__input-row">
+		                        </fieldset>
+		                        <fieldset class="offers-form__row">
+		                            <label for="chooseDateOut" class="offers-form__title-row">
+		                                Дата выезда:
+		                            </label>
+		                            <input id="chooseDateOut" name="dateOfOut" type="date" class="offers-form__input-row">
+		                        </fieldset>
+		                        <fieldset class="offers-form__row">
+		                            <label for="parentNumber" class="offers-form__title-row">
+		                                Взрослые:
+		                            </label>
+		                            <div class="offers-form__input-wrap">
+										<input type="text" id="parentNumber" name="adultQuantity" class="offers-form__input-choose" aria-label="Укажите количество взрослых">
+									</div>
+		                        </fieldset>
+		                        <fieldset class="offers-form__row offers-form__row_child">
+		                            <label for="childNumber" class="offers-form__title-row offers-form__title-row_child" aria-label="Укажите количество детей">
+		                                Дети:
+		                            </label>
+									<div class="offers-form__input-wrap">
+										<input type="text" id="childNumber" name="childQuantity" class="offers-form__input-choose">
+									</div>
+		                        </fieldset>
+	                        </div>
+	                        <button class="offers__submit" type="submit" aria-label="Найти подходящие варианты">Найти</button>
+	                    </form>
+                    </div>
+                </section>
+				<section class="map" id="map">
+                    <h2 class="visually-hidden">Наше расположение на карте</h2>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940203.029787782!2d-112.2742615576181!3d34.907060585011685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1645538049475!5m2!1sru!2sru" width="100%" height="594" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </section>
+            </main>
+            <footer class="footer footer_main">
+                <section class="footer__section address">
+                    <span class="address__title">
+                        #visitSEDONA
+                    </span>
+                    <a href="tel:+74956660166" class="address__phone" aria-label="Нажмите чтобы нам позвонить">
+                        ТЕЛ: +7(495) 666-01-66
+                    </a>
+                </section>
+                <section class="footer__section socials">
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a href="blank.html" class="socials__link" aria-label="twitter">
+                                <svg class="socials__svg" width="17" height="17" aria-hidden="true" focusable="false">
+                                    <use xlink:href="img/icons/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="blank.html" class="socials__link" aria-label="facebook">
+                                <svg class="socials__svg" width="12" height="22" aria-hidden="true" focusable="false">
+                                    <use xlink:href="img/icons/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="blank.html" class="socials__link" aria-label="youtube">
+                                <svg class="socials__svg" width="20" height="16" aria-hidden="true" focusable="false">
+                                    <use xlink:href="img/icons/sprite.svg#youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer__section copyright">
+                    <span class="copyright__title">Website by</span>
+                    <a href="//htmlacademy.ru" class="copyright__img-block">
+                        <img src="img/logo-htmlacademy.png" width="115" height="41" alt="html academy" class="copyright__img">
+                    </a>
+                </section>
+            </footer>
+        </div>
+        <div class="modal">
+            <div class="modal__box">
+                <section class="map">
+                    <h2 class="visually-hidden">Наше расположение на карте</h2>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940203.029787782!2d-112.2742615576181!3d34.907060585011685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1645538049475!5m2!1sru!2sru" width="100%" height="594" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </section>
+                <button class="modal__close" aria-label="Закрыть модальное окно"></button>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
