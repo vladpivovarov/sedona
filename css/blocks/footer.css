@@ -15,6 +15,12 @@
     width: 33.33%;
 }
 
+@media (min-resolution: 1.5dppx) {
+    .footer__section::after {
+        content:"retina!"
+    }
+}
+
 .address {
     font-weight: bold;
     font-size: 21px;
