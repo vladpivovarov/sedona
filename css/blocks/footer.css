@@ -15,7 +15,7 @@
     width: 33.33%;
 }
 
-@media (min-resolution: 1.2dppx) {
+@media (min-resolution: 1dppx) {
     .footer__section::after {
         content:"retina!"
     }
